@@ -1,0 +1,8 @@
+{application, exometer_report_lager,
+ [{description, "Lager reporter for Exometer compatible with exometer_core"},
+  {vsn, "1"},
+  {modules, [exometer_report_lager]},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+ ]}.
